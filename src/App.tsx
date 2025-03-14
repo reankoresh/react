@@ -1,10 +1,9 @@
-import Card from "./components/Card";
-import CardBody from "./components/CardBody";
+import GridList from "./components/GridList";
 function App() {
   return (
-    <Card>
-      <CardBody title="Hello World" description="This is a description" />
-    </Card>
+    <div className="container">
+      <GridList />
+    </div>
   );
 }
 
